@@ -1,5 +1,5 @@
-import { CartModel } from "../models/Cart.js";
-import { MenuModel } from "../models/Menu.js";
+import { CartModel } from "../models/cart.js";
+import { MenuModel } from "../models/menu.js";
 
 // Utility to calculate subtotal, tax, and total
 const calculateCartTotals = (cart) => {
